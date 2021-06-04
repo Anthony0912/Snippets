@@ -1,0 +1,74 @@
+{
+  "Rectángulo Widget": {
+    "prefix": "rectangulo",
+    "body": [
+      "class Rectangulo extends StatelessWidget {",
+      "    @override",
+      "    Widget build(BuildContext context) {",
+      "    return Container(",
+      "       width: 70,",
+      "       height: 70,",
+      "       decoration: BoxDecoration(",
+      "         color: Colors.blue",
+      "       ),",
+      "     );",
+      "   }",
+      "}"
+    ],
+    "description": "Log output to console"
+  },
+
+  "Flutter Page": {
+    "prefix": "ftt",
+    "body": [
+      "import 'package:flutter/material.dart';",
+      "",
+      "",
+      "class ${1:name}Page extends StatelessWidget {",
+      "",
+      "  @override",
+      "  Widget build(BuildContext context) {",
+      "    return Scaffold(",
+      "      body: Center(",
+      "        child: Text('Hola Mundo'),",
+      "     ),",
+      "   );",
+      "  }",
+      "}"
+    ],
+    "description": "Crea una página de flutter fácilmente"
+  },
+  "Flutter Main": {
+    "prefix": "fmain",
+    "body": [
+      "import 'package:flutter/material.dart';",
+      "",
+      "",
+      "void main() {",
+      "runApp(MyApp());",
+      "}",
+      "",
+      "class MyApp extends StatelessWidget {",
+      "",
+      "@override",
+      "Widget build(BuildContext context) {",
+      "   return MaterialApp(",
+      "     title: 'New App',",
+      "      debugShowCheckedModeBanner: false,",
+      "      home: Scaffold(",
+      "          appBar: AppBar(",
+      "          title: Text('Material App Bar'),",
+      "           ),",
+      "      body: Center(",
+      "         child: Container(",
+      "              child: Text('Hellow World'),",
+      "          ),",
+      "        ),",
+      "      ),",
+      "    );",
+      "  }",
+      "}"
+    ],
+    "description": "Crea el Main de flutter fácilmente"
+  }
+}
