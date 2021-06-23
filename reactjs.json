@@ -1,0 +1,20 @@
+{
+    "React hooks": {
+        "prefix": "rh",
+        "body": [
+            "import React from 'react';",
+            "",
+            "",
+            "const ${1:name} = () => {",
+            "",
+            "   return (",
+            "    <div></div>",
+            "   );",
+            "}",
+            "",
+            "",
+            "export default ${1:name};"
+        ],
+        "description": "Estructura inicial de React Hooks"
+    }
+}
